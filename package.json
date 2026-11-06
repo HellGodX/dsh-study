@@ -1,0 +1,19 @@
+{
+  "name": "dsh-study",
+  "version": "0.1.0",
+  "description": "自主学习面板：可视化开关控制后台自学任务（立即开/停、跑完这轮再停），状态与最近笔记一并显示。",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web" }
+  },
+  "keywords": ["dsh", "deepseek-harness", "plugin", "study", "quota"]
+}
