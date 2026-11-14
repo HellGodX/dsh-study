@@ -1,6 +1,6 @@
 {
   "name": "dsh-study",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "自主学习面板：前台小鲸鱼挂件 + 设置页双开关（立即开停 / 跑完这轮再停），后端只读本机 control.json。",
   "type": "module",
   "main": "lib/index.js",
